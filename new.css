@@ -1,0 +1,78 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body
+        {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: url(background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: inline-block;
+       }
+
+.logo
+{
+    display: inline;
+}
+       nav-menu
+     {
+      float: right;
+      font-family: sans-serif, Arial, "Times New Roman";
+      font-weight: bolder;
+      font-style: italic;
+      margin: 0 auto;
+     }
+
+.nav-menu ul
+  {
+
+  }
+
+.nav-menu ul li
+    {
+     list-style-type: none;
+     margin:20px;
+     float: right;
+    }
+
+.nav-menu ul li a
+{
+    border-style: outset;
+    border:1px solid white ;
+    text-decoration: none;
+    font-size:25px;
+    color: white;
+    cursor:pointer;
+    padding: 10px;
+}
+
+.nav-menu ul li a:hover
+ {
+    background-color: darkorange;
+    text-decoration: none;
+    transition: ease-in-out 0.4s;
+ }
+
+.hero
+ {
+    font-family: Roboto, "Times New Roman", sans-serif;
+    color: white;
+     height: 100%;
+     width: auto;
+     text-align: center;
+     border: 10px white;
+ }
+ .btn
+ {
+    border-top: 50%;
+    border-bottom: 50%;
+     border-radius: 20px;
+     width: 100%;
+     background: none;
+     border: 2px solid darkorange;
+     color: white;
+     padding: 5px;
+     font-size: 18px;
+     cursor: pointer;
+     margin: 12px 0;
+ }
