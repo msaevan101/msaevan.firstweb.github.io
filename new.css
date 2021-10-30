@@ -23,35 +23,11 @@ body
       margin: 0 auto;
      }
 
-.nav-menu ul
+nav ul
   {
-
+    display: flex;
   }
 
-.nav-menu ul li
-    {
-     list-style-type: none;
-     margin:20px;
-     float: right;
-    }
-
-.nav-menu ul li a
-{
-    border-style: outset;
-    border:1px solid white ;
-    text-decoration: none;
-    font-size:25px;
-    color: white;
-    cursor:pointer;
-    padding: 10px;
-}
-
-.nav-menu ul li a:hover
- {
-    background-color: darkorange;
-    text-decoration: none;
-    transition: ease-in-out 0.4s;
- }
 
 .hero
  {
